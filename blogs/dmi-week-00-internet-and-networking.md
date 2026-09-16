@@ -4,6 +4,10 @@ title: "DMI Week 00 — Internet and Networking"
 description: "What really happens when you type a URL into your browser."
 permalink: /blogs/dmi-week-00-internet-and-networking/
 date: 2026-09-16
+
+# DMI - Week 00 - Internet and Networking Assignement
+
+**By Shivam Sharma** 
 ---
 
 # What happens when you type a URL into your browser?
@@ -34,4 +38,6 @@ The browser parses the HTML, discovers CSS, JavaScript, images, fonts, and other
 
 Understanding DNS, IP addressing, HTTP/HTTPS, TLS, routing, ports, and client-server communication makes troubleshooting web applications and infrastructure much easier.
 
-This article is part of my **DevOps Micro Internship** learning journey.
+Every step of this journey reinforces that DevOps is about understanding systems—from the network layer to application architecture. Excited to continue learning! 🚀
+
+P.S. This is part of DevOps Micro Internship (DMI) Cohort 3 with Agentic AI, led by [Pravin Mishra](https://www.linkedin.com/in/pravin-mishra-aws-trainer/). My progress: <https://dmi.pravinmishra.com/s/subhamay-bhattacharyya.html>
