@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<section class="container article">
-  <p class="eyebrow">Blog</p>
-  <h1>{{ page.title }}</h1>
-  {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
-  {{ content }}
+<section class="wrap article">
+<p class="eyebrow">Blog Posts</p>
+<h1>{{ page.title }}</h1>
+{% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
+{{ content }}
 </section>

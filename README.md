@@ -1,28 +1,23 @@
-# Shivam Sharma — DevOps Portfolio
+# Shivam Sharma — GitHub Pages Profile
 
-Personal GitHub Pages portfolio and technical blog for my DevOps learning journey.
+This repository is designed as a GitHub Pages profile repository named `.github`.
 
-## Includes
+## Important URL structure
 
-- Jekyll-based portfolio
-- DevOps Micro Internship blog
-- Responsive layout
-- GitHub Pages deployment with GitHub Actions
-- Space for projects, badges, and future technical articles
+Because the repository itself is named `.github`, the published site uses:
 
-## Internship repository
+`https://shivamsharma-builds.github.io/.github/`
 
-https://github.com/shivamsharma-builds/devops-micro-internship-pravinmishra
+The Week 00 article therefore uses:
 
-## Local development
+`https://shivamsharma-builds.github.io/.github/blogs/dmi-week-00-internet-and-networking-assignment.html`
 
-```bash
-bundle install
-bundle exec jekyll serve
-```
+## Setup
 
-Then open `http://localhost:4000`.
+1. Create a public repository named `.github` under `shivamsharma-builds`.
+2. Upload the contents of this repository to the root of that repository.
+3. Push to `main`.
+4. In GitHub: Settings → Pages → Source → GitHub Actions.
+5. Wait for the Pages workflow to deploy.
 
-## GitHub Pages
-
-Create a repository named `.github` under your GitHub account, copy these files to it, push to `main`, and configure Pages to use **GitHub Actions**.
+The `baseurl: "/.github"` and `.html` permalink are intentional and are what produce the desired URL structure.

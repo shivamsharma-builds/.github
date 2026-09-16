@@ -1,14 +1,11 @@
 - title: Home
   url: /
 
-- title: About
-  url: /#about
+- title: Blogs
+  url: /blogs/
 
 - title: DevOps Journey
   url: /#journey
-
-- title: Blogs
-  url: /blogs/
 
 - title: Projects
   url: /#projects
