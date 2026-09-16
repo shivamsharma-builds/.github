@@ -1,10 +1,11 @@
 ---
 layout: default
 ---
-<article class="wrap article">
-<p class="eyebrow">DevOps Micro Internship</p>
-<h1>{{ page.title }}</h1>
-<p class="meta">By {{ site.data.profile.name }}{% if page.date %} · {{ page.date | date: "%b %-d, %Y" }}{% endif %}</p>
-<hr>
-{{ content }}
+<article class="container article">
+  <a class="back" href="{{ '/blogs/' | relative_url }}">← All blogs</a>
+  <p class="eyebrow">DevOps Micro Internship</p>
+  <h1>{{ page.title }}</h1>
+  {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
+  <p class="meta">{% if page.date %}{{ page.date | date: "%B %-d, %Y" }}{% endif %}</p>
+  <div class="article-body">{{ content }}</div>
 </article>

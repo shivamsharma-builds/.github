@@ -2,9 +2,14 @@ title: "Shivam Sharma"
 description: "DevOps, Cloud, Automation and Agentic AI learning journey."
 url: "https://shivamsharma-builds.github.io"
 baseurl: "/.github"
+repository: "shivamsharma-builds/.github"
+
 markdown: kramdown
+highlighter: rouge
 permalink: /blogs/:title.html
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

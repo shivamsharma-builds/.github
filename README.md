@@ -1,23 +1,29 @@
 # Shivam Sharma — GitHub Pages Profile
 
-This repository is designed as a GitHub Pages profile repository named `.github`.
+This repository is intended to be named **`.github`** under `shivamsharma-builds`.
 
-## Important URL structure
+## Exact blog URL
 
-Because the repository itself is named `.github`, the published site uses:
-
-`https://shivamsharma-builds.github.io/.github/`
-
-The Week 00 article therefore uses:
+After GitHub Pages deployment, Week 00 is:
 
 `https://shivamsharma-builds.github.io/.github/blogs/dmi-week-00-internet-and-networking-assignment.html`
 
-## Setup
+## Deployment
 
-1. Create a public repository named `.github` under `shivamsharma-builds`.
-2. Upload the contents of this repository to the root of that repository.
+1. Create a **public** repository named `.github`.
+2. Upload the contents of this repository to the **root** of that repository.
 3. Push to `main`.
-4. In GitHub: Settings → Pages → Source → GitHub Actions.
-5. Wait for the Pages workflow to deploy.
+4. Open **Settings → Pages**.
+5. Set **Source** to **GitHub Actions**.
+6. Wait for the `Deploy GitHub Pages` workflow to finish.
 
-The `baseurl: "/.github"` and `.html` permalink are intentional and are what produce the desired URL structure.
+The important settings are:
+
+- `baseurl: "/.github"`
+- `permalink: /blogs/:title.html`
+
+These are intentional because `.github` is the repository name and the desired public URL contains `/.github/`.
+
+## Internship repository
+
+https://github.com/shivamsharma-builds/devops-micro-internship-pravinmishra

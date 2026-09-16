@@ -1,11 +1,13 @@
 ---
 layout: post
 title: "DMI - Week 02 - Agentic AI Assignment"
-description: "Agentic AI learning notes from the DevOps Micro Internship."
-permalink: /blogs/dmi-week-02-agentic-ai-assignment.html
+description: "DevOps Micro Internship write-up."
 date: 2026-09-16
+permalink: /blogs/dmi-week-02-agentic-ai-assignment.html
 ---
-# Agentic AI
+# DMI - Week 02 - Agentic AI Assignment
+
+## Introduction
 
 Week 02 introduces Agentic AI and its application to developer and DevOps workflows.
 
@@ -17,4 +19,5 @@ Week 02 introduces Agentic AI and its application to developer and DevOps workfl
 - Verification and human oversight
 - DevOps automation use cases
 
-Replace this starter text with the full Week 02 assignment and project notes.
+*Replace or expand this starter write-up with your completed Week 02 assignment.*
+
