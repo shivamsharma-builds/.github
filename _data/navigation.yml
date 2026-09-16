@@ -1,0 +1,17 @@
+- title: Home
+  url: /
+
+- title: About
+  url: /#about
+
+- title: DevOps Journey
+  url: /#journey
+
+- title: Blogs
+  url: /blogs/
+
+- title: Projects
+  url: /#projects
+
+- title: Contact
+  url: /#contact

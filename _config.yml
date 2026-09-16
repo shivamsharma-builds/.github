@@ -1,0 +1,9 @@
+title: "Shivam Sharma"
+description: "DevOps, Cloud, Automation and Agentic AI learning journey."
+url: "https://shivamsharma-builds.github.io"
+baseurl: ""
+theme: null
+markdown: kramdown
+permalink: /blogs/:title/
+plugins:
+  - jekyll-feed
